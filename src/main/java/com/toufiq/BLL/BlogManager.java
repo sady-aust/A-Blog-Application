@@ -40,6 +40,15 @@ public class BlogManager{
 		}
 		return false;
 	}
+	
+	public List<Blog> getAllPublishedBlog(){
+		return aBlogGetway.getAllPublishedBlog();
+	}
+	
+	public List<Blog> getAllPublishedBlogOfACategory(int categoryId){
+		return aBlogGetway.getAllPublishedBlogOfACategory(categoryId);
+	}
+	
 
 	
 

@@ -222,5 +222,7 @@ public class CategoryGetway {
 		
 		return publishedCategories;
 	}
+	
+	
 
 }

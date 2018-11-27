@@ -28,6 +28,12 @@
   	<description></description>
   	<servlet-class>com.toufiq.controller.BlogController</servlet-class>
   </servlet>
+  <servlet>
+  	<servlet-name>HomeController</servlet-name>
+  	<display-name>HomeController</display-name>
+  	<description></description>
+  	<servlet-class>com.toufiq.controller.HomeController</servlet-class>
+  </servlet>
  
 
   <servlet-mapping>
@@ -41,6 +47,14 @@
   <servlet-mapping>
   	<servlet-name>BlogController</servlet-name>
   	<url-pattern>/BlogControllerPath</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>HomeController</servlet-name>
+  	<url-pattern>/Home</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>HomeController</servlet-name>
+  	<url-pattern>/</url-pattern>
   </servlet-mapping>
  
   
